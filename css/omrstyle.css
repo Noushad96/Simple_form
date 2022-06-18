@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+fieldset{
+    width: 20%;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+div.head{
+    font-size: 25px;
+}
+
+div.content{
+    display: grid;
+    justify-items: left;
+}
+
+
+div.object{
+    display: inline-grid;
+}
+
+div.head,.content,.object,.write,.title,.orient{
+    line-height: 2;
+}
+
+div.radio,.orients{
+    display: inline-table;
+}
+
+label.title{
+    font-size: 25px;
+}
