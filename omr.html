@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/omrstyle.css" type="text/css">
+</head>
+<body>
+    <fieldset >
+        <div class="column left" >
+            <div class="head" style="text-align:center">
+                <label>Entity name</label>
+            </div>
+            <div style="text-align:center">
+                <label class="title">Title</label>
+            </div>
+            <div class="content">
+                <label>Rows</label>
+                <input type="text" placeholder="Enter row" >
+                <label>Column</label>
+                <input type="text" placeholder="Enter Column">
+            </div>
+            <div class="object">
+                <label >Object</label>
+                <select id="object" name="objects">
+                    <!-- <option value="select">---Select---</option> -->
+                    <option value="Numeric 1-0">Numeric 1-0</option>
+                    <option value="Numeric 0-9">Numeric 0-9</option>
+                    <option value="character a-z">character a-z</option>
+                    <option value="fixed character">fixed character</option>
+                    <option value="image">image</option>
+                </select>
+            </div>
+            <!-- <div class="title">
+                <label>Option Title:</label>
+                <div class="radio">
+                    <input type="radio" id="Male" name="gen_male" value="Male">
+                    <label for="html">Male</label><br>
+                    <input type="radio" id="Female" name="gen_female" value="Female">
+                    <label for="css">Female</label><br>
+                    <input type="radio" id="Other" name="gen_other" value="Other">
+                    <label for="javascript">Other</label>
+                </div>
+            </div> -->
+
+            <div class="title">
+                <label>Option Title:</label>
+                <div class="textarea">
+                    <input type="textarea" id="Male" name="gen_male" value="Enter Title">
+                </div>
+            </div>
+            
+            <div class="write">
+                <label>Written box :</label>
+                <input type="radio" id="written" name="written"><label for="written">yes</label>
+                <input type="radio" id="written" name="written"><label for="written">No</label>
+                
+            </div>
+<!-- without label radio button ka use kiya hai usme text bhi daal diya -->
+            <div class="img">
+                <label>Crop Images :</label>
+                <input type="radio" name="img">Yes  <!--yes text display hoga -->
+                <input type="radio" name="img">No
+            </div>
+
+            <div class="orient">
+                <label>Orientation :</label>
+                <div class="orients">
+                    <input type="radio" name="orient"><label>Horizontally</label> <br>
+                    <input type="radio" name="orient"><label>Vertically</label>
+                    
+                </div>
+            </div>
+        </div>  
+    </fieldset> 
+</body>
+</html>
